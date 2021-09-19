@@ -31,7 +31,7 @@ export default function Home() {
     }
 
     try {
-      await axios.post('', data);
+      await axios.post('/api/contact', data);
 
       setLoading(false)
       setEmail('')

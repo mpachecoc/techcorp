@@ -21,7 +21,7 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
 
     let info = await transporter.sendMail({
       from: '"TechCorp Website 👨‍💻" <mauricio@techcorp.dev>',
-      to: "mauricio@techcorp.dev, mauri_3p@hotmail.com", 
+      to: "mauricio@techcorp.dev, cristian@techcorp.dev", 
       subject: "Website Potential Client ✔", 
       html: `<b>${email}</b> just provided its email! <br>
               Please contact this potential client.`, 

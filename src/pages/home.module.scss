@@ -83,3 +83,34 @@
     }
   }
 }
+
+@media (max-width: 720px) {
+  .contentContainer {
+    width: 100%;
+    padding: 3rem 2rem;
+  
+    flex-direction: column;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+    margin: 2.5rem 0;
+  
+    flex-direction: column;
+  
+    input {
+      flex: none;
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+}
